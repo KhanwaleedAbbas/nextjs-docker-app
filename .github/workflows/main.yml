@@ -18,7 +18,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t nextjs-app:latest .
+          docker build -t nextjs-image:v2 .
 
       - name: Stop and remove old container if exists
         run: |
